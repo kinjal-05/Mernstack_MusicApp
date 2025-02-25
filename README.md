@@ -51,3 +51,25 @@ The application supports two user roles: **Admin** and **Simple User**.
 ```bash
 git clone <repository-url>
 cd music-app
+```
+
+### 📌 Backend Setup
+```bash
+cd server
+npm install
+```
+
+### 🚀 Start the Backend Server:
+```bash
+npm start
+```
+
+### 🎨 Frontend Setup
+```bash
+cd client
+npm install
+```
+### 🚀 Run the Frontend App:
+```bash
+npm start
+```
