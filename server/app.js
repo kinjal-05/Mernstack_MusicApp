@@ -32,7 +32,7 @@ app.use("/api/feedback/", feedbackRoute);
 //   console.log("Mongodb Connected");
 // });
 
-mongoose.connect('', { useNewUrlParser: true });
+mongoose.connect(MONGODB_URL { useNewUrlParser: true });
 mongoose.connection
   .once("open", () => console.log("Connected"))
   .on("error", (error) => {
