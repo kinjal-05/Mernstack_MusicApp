@@ -39,4 +39,4 @@ mongoose.connection
     console.log(`Error : ${error}`);
   });
 
-app.listen(4000, () => console.log("lisitening to port 4000"));
+app.listen(4000, '0.0.0.0', () => console.log("lisitening to port 4000"));
