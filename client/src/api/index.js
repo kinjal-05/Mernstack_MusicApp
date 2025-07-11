@@ -3,7 +3,7 @@
 import axios from "axios";
 
 
-const baseURL = "https://mernstack-musicapp.onrender.com";
+const baseURL = "https://mernstack-musicapp.onrender.com/";
 //const baseURL2 = 'http://localhost:5000/';
 
 export const validateUser = async (token) => {
